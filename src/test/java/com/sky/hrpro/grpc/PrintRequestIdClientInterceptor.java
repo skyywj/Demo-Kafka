@@ -14,8 +14,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 打印 request id 拦截器
- *
- * @author wangjunwei
  * @since 2017-09-19
  */
 public class PrintRequestIdClientInterceptor implements ClientInterceptor {

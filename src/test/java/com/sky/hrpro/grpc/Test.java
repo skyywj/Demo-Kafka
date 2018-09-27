@@ -32,6 +32,10 @@ import java.lang.invoke.MethodHandles;
 @Component
 public class Test extends TestBase<ProtodemoGrpc.ProtodemoBlockingStub> {
 
+    /**
+     * 日志打印,在代码中应注重适当的添加必要的错误日志（注意有些地方不能用error，因为会block程序进行）
+     * 用到最多的是logger.error()  和 logger.warn()
+     */
     private static final Logger logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
     @Override
@@ -39,7 +43,10 @@ public class Test extends TestBase<ProtodemoGrpc.ProtodemoBlockingStub> {
         return ProtodemoGrpc.newBlockingStub(getManagedChannel());
     }
 
-
+    /**
+     * setid(1)没有任何意义，根本没用传参
+     * 此处为了写一个传参 和 一个空返回值的例子  所以写了个传参id
+     */
     @org.junit.Test
     public void test(){
         getStub().test(testRequest.newBuilder().setId(1).build());

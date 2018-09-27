@@ -2,6 +2,11 @@
 
 学习springboot连接mysql
 
+在此附上grpc的官方文档：
+       
+        https://grpc.io/docs/quickstart/java.html
+        http://doc.oschina.net/grpc?t=61535
+
 将demo项目克隆并添加到新的github项目的步骤：
 
     1）git clone Demo项目
@@ -42,3 +47,8 @@ gRPC 默认使用 protocol buffers 作为接口定义语言,在项目中采用pr
         4、引入springboot标准grpc依赖包grpc-spring-boot-starter、jersey-rpc-support、grpc-netty、grpc-protobuf
         5、写grpc层。使用@GRpcService，代码逻辑尽量放到service层，不要让grpc层太臃肿(第二次说了)
         
+完成以上之后，让我头疼的事情是grpc层的测试
+    
+    网上有说使用mock grpc进行单元测试的，但我看到有好多东西现在已经不支持，具体没试过，还请大佬轻批。
+    
+    本项目 采用的是netty channal的方式  （具体请自己查阅）

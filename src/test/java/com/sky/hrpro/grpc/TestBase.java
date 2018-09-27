@@ -10,8 +10,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Test Base Class
- *
- * @author wangjunwei
  * @since 2017-09-06
  */
 public abstract class TestBase<T extends AbstractStub> {
