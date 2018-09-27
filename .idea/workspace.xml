@@ -3,17 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b67322f2-cab2-4479-91e5-151646069996" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/dao/TestDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/dao/TestDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/hrpro/dao/TestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/hrpro/dao/TestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/hrpro/service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/hrpro/service/TestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sky/hrpro/service/TestTestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sky/hrpro/service/TestTestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/hrpro/grpc/TestGrpc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sky/hrpro/grpc/TestGrpc.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +21,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
+            <state relative-caret-position="472">
               <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
             </state>
           </provider>
@@ -43,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestGrpc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/grpc/TestGrpc.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/grpc/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="240">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +48,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestGrpc.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestGrpc.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            <state relative-caret-position="408">
+              <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTestService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding>
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintRequestIdClientInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/PrintRequestIdClientInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,8 +88,8 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="156">
+              <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +135,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestGrpc.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/GrpcServerRule.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestBase.java" />
       </list>
     </option>
   </component>
@@ -168,10 +188,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1000" />
+    <option name="x" value="287" />
+    <option name="y" value="108" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -303,6 +323,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sky.hrpro.grpc" />
     </key>
@@ -322,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.testGrpc">
+  <component name="RunManager" selected="JUnit.TestTestService.test01">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -340,6 +363,52 @@
       <option name="MAIN_CLASS_NAME" value="com.sky.hrpro.grpc.Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestTestService.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.hrpro.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sky.hrpro.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.hrpro.service.TestTestService" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.hrpro.grpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sky.hrpro.grpc" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.hrpro.grpc.Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -423,9 +492,13 @@
       <item itemvalue="Spring Boot.HrProsApplication (1)" />
       <item itemvalue="JUnit.Test.testGrpc" />
       <item itemvalue="JUnit.TestGrpc" />
+      <item itemvalue="JUnit.Test.test" />
+      <item itemvalue="JUnit.TestTestService.test01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTestService.test01" />
+        <item itemvalue="JUnit.Test.test" />
         <item itemvalue="JUnit.Test.testGrpc" />
         <item itemvalue="JUnit.TestGrpc" />
       </list>
@@ -441,17 +514,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538026448357</updated>
-      <workItem from="1538026449728" duration="15333000" />
+      <workItem from="1538026449728" duration="17864000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGrpc_testGrpc - 2018.09.27 at 18h 02m 27s.xml">
-      <configuration name="TestGrpc.testGrpc" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGrpc_testGrpc - 2018.09.27 at 18h 05m 30s.xml">
-      <configuration name="TestGrpc.testGrpc" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestGrpc_testGrpc - 2018.09.27 at 18h 06m 00s.xml">
       <configuration name="TestGrpc.testGrpc" configurationId="JUnit" />
     </history-entry>
@@ -473,9 +540,18 @@
     <history-entry file="TestGrpc_testGrpc - 2018.09.27 at 19h 34m 01s.xml">
       <configuration name="TestGrpc.testGrpc" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_test - 2018.09.27 at 20h 39m 17s.xml">
+      <configuration name="Test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test - 2018.09.27 at 20h 42m 18s.xml">
+      <configuration name="Test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTestService_test01 - 2018.09.27 at 20h 42m 50s.xml">
+      <configuration name="TestTestService.test01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15333000" />
+    <option name="totallyTimeSpent" value="17864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1920" height="1000" extended-state="6" />
@@ -536,13 +612,6 @@
     <entry file="file://$PROJECT_DIR$/Demo.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -550,16 +619,6 @@
             <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/PrintRequestIdClientInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,17 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,16 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/grpc/TestGrpc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -626,29 +664,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/grpc/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestGrpc.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="472">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/GrpcServerRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/PrintRequestIdClientInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
           </folding>
         </state>
       </provider>

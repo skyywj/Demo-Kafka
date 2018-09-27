@@ -5,7 +5,6 @@ import io.grpc.ManagedChannel;
 import io.grpc.Metadata;
 import io.grpc.netty.NettyChannelBuilder;
 import io.grpc.stub.AbstractStub;
-import io.grpc.stub.MetadataUtils;
 
 import java.util.concurrent.TimeUnit;
 
@@ -29,6 +28,7 @@ public abstract class TestBase<T extends AbstractStub> {
              */
             channel =
                 NettyChannelBuilder.forAddress(host, port)
+                        .usePlaintext(true)
                     .keepAliveTime(15, TimeUnit.SECONDS)
                     .keepAliveTimeout(30, TimeUnit.SECONDS)
                     .userAgent(getUserAgent())
@@ -54,7 +54,7 @@ public abstract class TestBase<T extends AbstractStub> {
      * @return
      */
     //request head
-    private final ClientInterceptor attachHeadersInterceptor = MetadataUtils.newAttachHeadersInterceptor(METADATA);
+//    private final ClientInterceptor attachHeadersInterceptor = MetadataUtils.newAttachHeadersInterceptor(METADATA);
     //request id
     private final ClientInterceptor printRequestIdClientInterceptor = new PrintRequestIdClientInterceptor();
 
@@ -68,8 +68,7 @@ public abstract class TestBase<T extends AbstractStub> {
 
         stub =
             (T)
-                doGetStub().withInterceptors(attachHeadersInterceptor)
-                        .withInterceptors(printRequestIdClientInterceptor);
+                doGetStub().withInterceptors(printRequestIdClientInterceptor);
         return stub;
     }
 

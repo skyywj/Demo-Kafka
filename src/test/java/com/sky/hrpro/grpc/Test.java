@@ -1,12 +1,23 @@
 package com.sky.hrpro.grpc;
 
-import io.grpc.Server;
-import io.grpc.inprocess.InProcessServerBuilder;
+
 
 /**
  * @Author: YanWenjie
  * @Date: 2018/9/27 下午5:25
  */
+
+import com.test.grpc.ProtodemoGrpc;
+import com.test.grpc.testRequest;
+import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.stereotype.Component;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import java.lang.invoke.MethodHandles;
+
 
 /**
  * grpc 单元测试还是比较其他的麻烦一些的，涉及request
@@ -16,18 +27,22 @@ import io.grpc.inprocess.InProcessServerBuilder;
  * 4、通过getstub（）调用测试方法
  */
 
+@RunWith(SpringRunner.class)
+@SpringBootTest
+@Component
+public class Test extends TestBase<ProtodemoGrpc.ProtodemoBlockingStub> {
 
-public class Test {
+    private static final Logger logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
-//    //定义服务名字用于绑定客户端调用的服务端
-//    private static final String UNIQUE_SERVER_NAME = "in-process server for " + Test.class;
-//
-//    //创建一个进程内的server
-//    private final Server inProcessServer = InProcessServerBuilder.forName(UNIQUE_SERVER_NAME).addService(new ()).directExecutor().build();
-//    //创建一个进程内的channel
-//    private final ManagedChannel inProcessChannel = InProcessChannelBuilder.forName(UNIQUE_SERVER_NAME).directExecutor().build();
+    @Override
+    protected ProtodemoGrpc.ProtodemoBlockingStub doGetStub() {
+        return ProtodemoGrpc.newBlockingStub(getManagedChannel());
+    }
 
 
-
-
+    @org.junit.Test
+    public void test(){
+        getStub().test(testRequest.newBuilder().setId(1).build());
+        logger.error("test error..........");
+    }
 }
