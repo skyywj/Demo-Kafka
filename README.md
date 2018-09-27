@@ -17,3 +17,28 @@
     
   
  如果有多余的东西，需要另行处理，比如重新clone一个新的项目后直接删除操作，然后再提交。
+
+gRPC 默认使用 protocol buffers 作为接口定义语言,在项目中采用proto新建仓库的策略以保证接口可以供Android ios等共用，但ios Android编译proto的方式不同
+
+    新建proto项目，并在本项目中引入
+        1、新建springboot项目protodemo
+        2、删除不必要的文件，目录格式也需要修改
+        3、pom.xml 添加依赖包grpc-all(项目中的几个),protobuf-java,jersey-rpc-support,jersey-server
+        4、pom.xml 添加build
+        5、新建test.proto文件，并写好接口
+        6、编译 mvn compile
+        7、安装 mvn install(安装到本地~/.m2/resposity下)
+    接口项目完成操作，接下来是项目具体引入
+        1、~/.m2/settings.xml配置需要有，这个自己百度配置
+        2、引入本地依赖，说明一下具体
+                <dependency>
+                //groupid为项目名
+                    <groupId>test-proto</groupId>
+                //artifactId为install后:repository后，版本名前的路径,以.连接的路径 如com.abc
+                    <artifactId>protodemo</artifactId>
+                    <version>0.0.1-SNAPSHOT</version>
+                </dependency>
+        3、mvn compile 成功即可。
+        4、引入springboot标准grpc依赖包grpc-spring-boot-starter、jersey-rpc-support、grpc-netty、grpc-protobuf
+        5、写grpc层。使用@GRpcService，代码逻辑尽量放到service层，不要让grpc层太臃肿(第二次说了)
+        

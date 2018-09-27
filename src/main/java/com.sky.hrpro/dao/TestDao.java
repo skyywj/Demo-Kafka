@@ -15,7 +15,7 @@ public class TestDao {
     private JdbcTemplate jdbcTemplate;
 
     public void addTest(){
-        String sql = "insert into test (id,name,age) values(1,'ywj',23)";
+        String sql = "insert into test (id,name,age) values(2,'ywj',23)";
         int rows = jdbcTemplate.update(sql);
         assert rows == 1;
     }

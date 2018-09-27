@@ -25,7 +25,7 @@ public class TestTestService {
      */
     @Test
     public void test01(){
-        testService.testServece();
+        testService.testService();
     }
 
 }
