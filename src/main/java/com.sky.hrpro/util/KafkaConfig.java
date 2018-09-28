@@ -4,7 +4,12 @@ import com.sky.hrpro.HrProsApplication;
 import java.util.Properties;
 
 /**
- * Created on 2018/9/28
+ * @Author: YanWenjie
+ * @Date: 2018/9/28 下午4:09
+ */
+
+/**
+ * kafka配置
  */
 public class KafkaConfig {
     private static Properties properties;

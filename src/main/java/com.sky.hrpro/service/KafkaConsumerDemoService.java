@@ -18,13 +18,15 @@ import org.apache.kafka.common.config.SslConfigs;
 import org.springframework.scheduling.annotation.Async;
 
 /**
- * Created on 2018/9/28
- *
- * kafka demo
- * start()启动kafka消费者进行消费消息
- *
+ * @Author: YanWenjie
+ * @Date: 2018/9/28 下午4:09
  */
-public class KafkaConsumerDemo {
+
+/**
+ * kafka 消费者demo
+ * start()启动kafka消费者进行消费消息
+ */
+public class KafkaConsumerDemoService {
 
     KafkaConsumer<String ,String > consumer;
 

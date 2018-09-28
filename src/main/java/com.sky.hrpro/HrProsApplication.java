@@ -1,9 +1,7 @@
 package com.sky.hrpro;
 
 
-import com.sky.hrpro.service.KafkaConsumerDemo;
 import com.sky.hrpro.service.TaskRunner;
-import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -11,9 +9,6 @@ import org.springframework.scheduling.TaskScheduler;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.lang.invoke.MethodHandles;
-import java.util.logging.Logger;
 
 /**
  * @ClassName:HrProsApplication
