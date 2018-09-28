@@ -12,10 +12,8 @@ import org.apache.kafka.clients.producer.RecordMetadata;
 import org.apache.kafka.common.config.SaslConfigs;
 import org.apache.kafka.common.config.SslConfigs;
 
-
 /**
- * @Author: CarryJey
- * @Date: 2018/9/28 下午4:09
+ * @Author: CarryJey @Date: 2018/9/28 下午4:09
  */
 
 /**
@@ -28,7 +26,7 @@ public class KafkaProducerDemo {
         KafkaConfig.configureSasl();
 
         //加载kafka.properties
-        Properties kafkaProperties =  KafkaConfig.getKafkaProperties();
+        Properties kafkaProperties = KafkaConfig.getKafkaProperties();
 
         Properties props = new Properties();
         //设置接入点，请通过控制台获取对应Topic的接入点
@@ -43,8 +41,12 @@ public class KafkaProducerDemo {
         //SASL鉴权方式，保持不变
         props.put(SaslConfigs.SASL_MECHANISM, "ONS");
         //Kafka消息的序列化方式
-        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafkaService.common.serialization.StringSerializer");
-        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafkaService.common.serialization.StringSerializer");
+        props.put(
+            ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
+            "org.apache.kafkaService.common.serialization.StringSerializer");
+        props.put(
+            ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,
+            "org.apache.kafkaService.common.serialization.StringSerializer");
         //请求的最长等待时间
         props.put(ProducerConfig.MAX_BLOCK_MS_CONFIG, 30 * 1000);
 
@@ -56,7 +58,7 @@ public class KafkaProducerDemo {
         String topic = kafkaProperties.getProperty("topic"); //消息所属的Topic，请在控制台申请之后，填写在这里
         String value = "this is the message's value"; //消息的内容
 
-        ProducerRecord<String, String>  kafkaMessage =  new ProducerRecord<String, String>(topic, value);
+        ProducerRecord<String, String> kafkaMessage = new ProducerRecord<String, String>(topic, value);
 
         try {
             //发送消息，并获得一个Future对象
@@ -71,6 +73,4 @@ public class KafkaProducerDemo {
             e.printStackTrace();
         }
     }
-
-
 }

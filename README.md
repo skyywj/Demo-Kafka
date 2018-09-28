@@ -24,3 +24,7 @@ kafka简介：https://help.aliyun.com/document_detail/68327.html?spm=a2c4g.11186
     poll(timeout: 1000):每1000ms拉取一次数据， props.put(ConsumerConfig.MAX_POLL_RECORDS_CONFIG, 30);  设置一次拉取30个
 
 生产者：基本和消费者一样，不同的是生产者发送消息，主要方法是send
+    
+    生产者消息是以Json字符串的方式进行传导，消费者拿到之后通过对json字符串进行转换即可。
+    在util下有个JSonUtils文件，可通过这个进行转换，如果觉得不好用可以参考简化笨拙一些的办法在需要的地方进行转换，参考test/util/TestJsonChange.java
+    

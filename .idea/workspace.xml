@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67322f2-cab2-4479-91e5-151646069996" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/HrProsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/EventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/EventType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/KafkaConsumerDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaConsumerDemoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/KafkaProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaProducerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/TaskRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/TaskRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sky/hrpro/kafka/KafkaConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sky/hrpro/util/TestJsonChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sky/hrpro/kafkaService/KafkaConsumerDemoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sky/hrpro/kafkaService/KafkaProducerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sky/hrpro/kafkaService/TaskRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sky/hrpro/kafka/KafkaConsumerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sky/hrpro/service/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/KafkaConsumerDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/KafkaConsumerDemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/KafkaProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/KafkaProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sky/hrpro/service/TestTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/hrpro/HrProsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/hrpro/HrProsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/hrpro/controller/TestContro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/hrpro/controller/TestContro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/hrpro/service/EventType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/hrpro/kafkaService/EventType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/hrpro/service/KafkaConsumerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/hrpro/service/TaskRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/hrpro/util/KafkaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/hrpro/util/KafkaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kafka.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +55,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KafkaConsumerDemoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaConsumerDemoService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="248">
+              <caret line="109" column="34" lean-forward="true" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaConsumerDemoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/KafkaConsumerDemoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,10 +77,45 @@
         </entry>
       </file>
       <file leaf-file-name="KafkaProducerDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaProducerDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/KafkaProducerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="109">
+              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2110#2126#0" expanded="true" />
+                <element signature="e#2383#2399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTestService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/service/TestTestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="405">
+                <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestJsonChange.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/util/TestJsonChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +123,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/TestService.java">
+      <file leaf-file-name="PrintRequestIdClientInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/PrintRequestIdClientInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="195">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,20 +144,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/EventType.java">
+      <file leaf-file-name="KafkaConsumerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/kafka/KafkaConsumerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KafkaConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="264">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +156,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/TaskRunner.java">
+      <file leaf-file-name="JsonUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/JsonUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="1065">
+              <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,6 +183,7 @@
       <find>proto</find>
       <find>ManagedChannel</find>
       <find>smim-proto</find>
+      <find>getclass</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,13 +207,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/entity/test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.magration/test.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/NimMessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/interceptor/RequestIdInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/LoggerUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/kafka.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/KafkaConsumerDemo.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/controller/TestContro.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/dao/TestDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/entity/TestEntity.java" />
@@ -160,8 +225,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/TaskRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/TestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/ImConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/JsonUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/KafkaConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaConsumerDemoService.java" />
@@ -169,6 +232,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/TaskRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/EventType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/KafkaConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/TaskRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/KafkaConsumerDemoService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sky/hrpro/kafka/KafkaConsumerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/KafkaProducerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestJsonChange.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sky/hrpro/util/TestJsonChange.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -227,6 +301,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
@@ -263,9 +338,22 @@
               <item name="Demo-Kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo-Kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo-Kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo-Kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.sky.hrpro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo-Kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo-Kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hrpro" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,6 +379,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sky.hrpro.service" />
+      <recent name="com.sky.hrpro.util" />
       <recent name="com.sky.hrpro" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -318,38 +408,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HrProsApplication (1)">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestJsonChange">
+    <configuration name="TestJsonChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sky.hrpro.util.TestJsonChange" />
       <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sky.hrpro.grpc.*" />
+          <option name="PATTERN" value="com.sky.hrpro.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sky.hrpro.grpc" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.hrpro.grpc.Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="TestTestService.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sky.hrpro.kafka.*" />
+          <option name="PATTERN" value="com.sky.hrpro.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,7 +450,7 @@
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sky.hrpro.kafka.*" />
+          <option name="PATTERN" value="com.sky.hrpro.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -486,14 +564,15 @@
     <list>
       <item itemvalue="Spring Boot.HrProsApplication" />
       <item itemvalue="Spring Boot.HrProsApplication (1)" />
-      <item itemvalue="JUnit.Test" />
       <item itemvalue="JUnit.Test.testGrpc" />
       <item itemvalue="JUnit.Test.test" />
       <item itemvalue="JUnit.TestTestService.test01" />
       <item itemvalue="JUnit.TestTestService.testTransational" />
+      <item itemvalue="Application.TestJsonChange" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestJsonChange" />
         <item itemvalue="JUnit.TestTestService.testTransational" />
         <item itemvalue="JUnit.TestTestService.test01" />
         <item itemvalue="JUnit.Test.test" />
@@ -515,7 +594,7 @@
       <workItem from="1538057439542" duration="56000" />
       <workItem from="1538100772448" duration="5250000" />
       <workItem from="1538114390449" duration="3409000" />
-      <workItem from="1538120121035" duration="10996000" />
+      <workItem from="1538120121035" duration="18210000" />
     </task>
     <servers />
   </component>
@@ -552,10 +631,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41067000" />
+    <option name="totallyTimeSpent" value="48281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1006" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -577,8 +657,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32844242" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32731378" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32731378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
@@ -599,54 +679,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/grpc/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -731,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/NimMessageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -756,16 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -845,16 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/LoggerUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -889,23 +898,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/PrintRequestIdClientInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -916,50 +908,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.sky.hrpro/service/TestTestService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/TaskRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaConsumerDemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaProducerDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/KafkaConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/TaskRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/EventType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/service/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="44">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -967,20 +945,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/EventType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/KafkaConsumerDemoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafka/KafkaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="192">
+          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="109" column="34" lean-forward="true" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/type/TypeReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/kafkaService/KafkaProducerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2110#2126#0" expanded="true" />
+            <element signature="e#2383#2399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.sky.hrpro/util/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/PrintRequestIdClientInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/grpc/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/kafka/KafkaConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/util/TestJsonChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/hrpro/service/TestTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

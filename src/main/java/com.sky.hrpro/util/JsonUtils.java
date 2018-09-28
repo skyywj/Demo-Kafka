@@ -69,8 +69,7 @@ public abstract class JsonUtils {
     }
 
     public static <K, V> Map<K, V> parseMap(String json) {
-        return (Map)parse(json, new TypeReference<Map<K, V>>() {
-        });
+        return (Map) parse(json, new TypeReference<Map<K, V>>() {});
     }
 
     public static <T> T parse(String json, TypeReference<T> reference) {

@@ -16,6 +16,7 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.config.SaslConfigs;
 import org.apache.kafka.common.config.SslConfigs;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.stereotype.Service;
 
 /**
  * @Author: CarryJey
@@ -26,6 +27,7 @@ import org.springframework.scheduling.annotation.Async;
  * kafkaService 消费者demo
  * start()启动kafka消费者进行消费消息
  */
+@Service
 public class KafkaConsumerDemoService {
 
     KafkaConsumer<String ,String > consumer;
@@ -100,7 +102,7 @@ public class KafkaConsumerDemoService {
     }
 
 
-    void solve(String msgJson) {
+    public void solve(String msgJson) {
         if(msgJson == null || msgJson.isEmpty()){
             return;
         }
@@ -116,7 +118,7 @@ public class KafkaConsumerDemoService {
 
     //异步处理
     @Async("taskScheduler")
-    void solveTest(Map<String, String> request, String msgJson) {
+    public void solveTest(Map<String, String> request, String msgJson) {
         if(request != null && request.get("eventType").equals(EventType.MSG_EVENT_TYPE)){
             System.out.println("do some thing to deal with ***");
         }
