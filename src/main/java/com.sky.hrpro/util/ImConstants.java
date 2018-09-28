@@ -6,7 +6,7 @@ import io.grpc.Metadata;
 /**
  * IM 常量定义
  *
- * @author
+ * @author CarryJey
  * @since 2018-09-28
  */
 public abstract class ImConstants {

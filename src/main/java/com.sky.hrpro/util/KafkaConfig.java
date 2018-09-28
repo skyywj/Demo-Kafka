@@ -4,7 +4,7 @@ import com.sky.hrpro.HrProsApplication;
 import java.util.Properties;
 
 /**
- * @Author: YanWenjie
+ * @Author: CarryJey
  * @Date: 2018/9/28 下午4:09
  */
 
