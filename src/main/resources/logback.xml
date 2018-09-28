@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%date] [%-5level] [%thread] %logger{80} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root>
+        <level value="INFO"/>
+        <appender-ref ref="stdout"/>
+    </root>
+
+    <logger name="org.springframework.jdbc" level="DEBUG"/>
+    <logger name="org.springframework.cache" level="TRACE"/>
+    <logger name="org.springframework.transaction" level="DEBUG"/>
+
+</configuration>

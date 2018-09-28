@@ -50,5 +50,9 @@ gRPC 默认使用 protocol buffers 作为接口定义语言,在项目中采用pr
 完成以上之后，让我头疼的事情是grpc层的测试
     
     网上有说使用mock grpc进行单元测试的，但我看到有好多东西现在已经不支持，具体没试过，还请大佬轻批。
-    
+        https://www.scienjus.com/mock-grpc-in-java-unit-test/
     本项目 采用的是netty channal的方式  （具体请自己查阅）
+    
+    测试时请先运行HrProsApplication.java,然后再去跑grpc的单元测试，否则报refuse connect 127.0.0.1.6565的错误。
+
+日志系统采用的是logback，添加logback.xml 和lognet依赖
