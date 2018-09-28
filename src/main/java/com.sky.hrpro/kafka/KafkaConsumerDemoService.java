@@ -1,4 +1,4 @@
-package com.sky.hrpro.service;
+package com.sky.hrpro.kafka;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,6 @@ import java.util.Map;
 import java.util.Properties;
 
 import com.sky.hrpro.util.JsonUtils;
-import com.sky.hrpro.util.KafkaConfig;
 import org.apache.kafka.clients.CommonClientConfigs;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;

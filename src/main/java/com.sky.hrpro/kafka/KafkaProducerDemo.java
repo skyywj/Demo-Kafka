@@ -1,9 +1,8 @@
-package com.sky.hrpro.service;
+package com.sky.hrpro.kafka;
 
 import java.util.Properties;
 import java.util.concurrent.Future;
 
-import com.sky.hrpro.util.KafkaConfig;
 import org.apache.kafka.clients.CommonClientConfigs;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;

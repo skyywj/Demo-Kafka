@@ -1,4 +1,4 @@
-package com.sky.hrpro.util;
+package com.sky.hrpro.kafka;
 
 import com.sky.hrpro.HrProsApplication;
 import java.util.Properties;
