@@ -1,8 +1,9 @@
-package com.sky.hrpro.kafka;
+package com.sky.hrpro.kafkaService;
 
 import java.util.Properties;
 import java.util.concurrent.Future;
 
+import com.sky.hrpro.util.KafkaConfig;
 import org.apache.kafka.clients.CommonClientConfigs;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -42,8 +43,8 @@ public class KafkaProducerDemo {
         //SASL鉴权方式，保持不变
         props.put(SaslConfigs.SASL_MECHANISM, "ONS");
         //Kafka消息的序列化方式
-        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
-        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
+        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafkaService.common.serialization.StringSerializer");
+        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafkaService.common.serialization.StringSerializer");
         //请求的最长等待时间
         props.put(ProducerConfig.MAX_BLOCK_MS_CONFIG, 30 * 1000);
 

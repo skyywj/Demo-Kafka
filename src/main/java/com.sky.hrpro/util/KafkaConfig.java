@@ -1,4 +1,4 @@
-package com.sky.hrpro.kafka;
+package com.sky.hrpro.util;
 
 import com.sky.hrpro.HrProsApplication;
 import java.util.Properties;
@@ -26,7 +26,7 @@ public class KafkaConfig {
         if (null != properties) {
             return properties;
         }
-        // 获取配置文件 kafka.properties 的内容
+        // 获取配置文件 kafkaService.properties 的内容
         Properties kafkaProperties = new Properties();
         try {
             kafkaProperties.load(HrProsApplication.class.getClassLoader().getResourceAsStream("kafka.properties"));

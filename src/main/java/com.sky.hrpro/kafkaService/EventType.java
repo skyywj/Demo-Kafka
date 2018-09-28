@@ -1,4 +1,4 @@
-package com.sky.hrpro.kafka;
+package com.sky.hrpro.kafkaService;
 
 
 import org.springframework.stereotype.Service;

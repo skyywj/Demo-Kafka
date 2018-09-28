@@ -1,4 +1,4 @@
-package com.sky.hrpro.kafka;
+package com.sky.hrpro.kafkaService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Properties;
 
 import com.sky.hrpro.util.JsonUtils;
+import com.sky.hrpro.util.KafkaConfig;
 import org.apache.kafka.clients.CommonClientConfigs;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -22,7 +23,7 @@ import org.springframework.scheduling.annotation.Async;
  */
 
 /**
- * kafka 消费者demo
+ * kafkaService 消费者demo
  * start()启动kafka消费者进行消费消息
  */
 public class KafkaConsumerDemoService {
@@ -59,8 +60,8 @@ public class KafkaConsumerDemoService {
         //注意该值不要改得太大，如果poll太多数据，而不能在下次poll之前消费完，则会触发一次负载均衡，产生卡顿
         props.put(ConsumerConfig.MAX_POLL_RECORDS_CONFIG, 30);
         //消息的反序列化方式
-        props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringDeserializer");
-        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringDeserializer");
+        props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, "org.apache.kafkaService.common.serialization.StringDeserializer");
+        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, "org.apache.kafkaService.common.serialization.StringDeserializer");
         //当前消费实例所属的消费组，请在控制台申请之后填写
         //属于同一个组的消费实例，会负载消费消息
         props.put(ConsumerConfig.GROUP_ID_CONFIG, kafkaProperties.getProperty("group.id"));
