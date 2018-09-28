@@ -6,7 +6,7 @@ import java.util.Objects;
  * @Author: YanWenjie
  * @Date: 2018/9/27 上午10:30
  */
-public class test {
+public class TestEntity {
 
     private int id;
     private String name;
@@ -48,16 +48,16 @@ public class test {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof test)) return false;
-        test test = (test) o;
-        return id == test.id &&
-                age == test.age &&
-                Objects.equals(name, test.name);
+        if (!(o instanceof TestEntity)) return false;
+        TestEntity that = (TestEntity) o;
+        return getId() == that.getId() &&
+                getAge() == that.getAge() &&
+                Objects.equals(getName(), that.getName());
     }
 
     @Override
     public int hashCode() {
 
-        return Objects.hash(id, name, age);
+        return Objects.hash(getId(), getName(), getAge());
     }
 }

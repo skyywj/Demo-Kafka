@@ -24,8 +24,17 @@ public class TestTestService {
      * 单元测试，运行某个方法即可
      */
     @Test
-    public void test01(){
+    public void test01()
+    {
         testService.testService();
+    }
+
+    /**
+     * 事务单元测试
+     */
+    @Test
+    public void testTransational(){
+        testService.testTransactional();
     }
 
 }

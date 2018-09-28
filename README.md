@@ -56,3 +56,5 @@ gRPC 默认使用 protocol buffers 作为接口定义语言,在项目中采用pr
     测试时请先运行HrProsApplication.java,然后再去跑grpc的单元测试，否则报refuse connect 127.0.0.1.6565的错误。
 
 日志系统采用的是logback，添加logback.xml 和lognet依赖
+
+事务使用@Transational注解
