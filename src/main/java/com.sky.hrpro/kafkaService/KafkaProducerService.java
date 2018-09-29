@@ -13,7 +13,8 @@ import org.apache.kafka.common.config.SaslConfigs;
 import org.apache.kafka.common.config.SslConfigs;
 
 /**
- * @Author: CarryJey @Date: 2018/9/28 下午4:09
+ * @Author: CarryJey
+ * @Date: 2018/9/28 下午4:09
  */
 
 /**
