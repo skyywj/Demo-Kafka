@@ -11,7 +11,7 @@ import org.springframework.core.Ordered;
  */
 public class TaskRunner implements ApplicationRunner,Ordered {
 
-    KafkaConsumerDemoService kafkaConsumerDemo;
+    KafkaConsumerService kafkaConsumerDemo;
 
     //设置顺序
     @Override

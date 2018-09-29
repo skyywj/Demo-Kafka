@@ -28,7 +28,7 @@ import org.springframework.stereotype.Service;
  * start()启动kafka消费者进行消费消息
  */
 @Service
-public class KafkaConsumerDemoService {
+public class KafkaConsumerService {
 
     KafkaConsumer<String ,String > consumer;
 
@@ -120,7 +120,13 @@ public class KafkaConsumerDemoService {
     @Async("taskScheduler")
     public void solveTest(Map<String, String> request, String msgJson) {
         if(request != null && request.get("eventType").equals(EventType.MSG_EVENT_TYPE)){
+
             System.out.println("do some thing to deal with ***");
+
+            String name = request.get("name");
+            String id = request.get("id");
+            String age = request.get("age");
+            //以map键值的方式取值，然后传到相关方法中去进行处理
         }
     }
 

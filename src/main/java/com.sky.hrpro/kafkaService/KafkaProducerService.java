@@ -19,7 +19,7 @@ import org.apache.kafka.common.config.SslConfigs;
 /**
  * kafka生产者demo
  */
-public class KafkaProducerDemo {
+public class KafkaProducerService {
 
     public static void main(String args[]) {
         //设置sasl文件的路径

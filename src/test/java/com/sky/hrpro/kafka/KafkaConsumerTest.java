@@ -1,6 +1,6 @@
 package com.sky.hrpro.kafka;
 
-import com.sky.hrpro.kafkaService.KafkaConsumerDemoService;
+import com.sky.hrpro.kafkaService.KafkaConsumerService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,12 +19,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class KafkaConsumerTest {
 
     @Autowired
-    private KafkaConsumerDemoService kafkaConsumerDemoService;
+    private KafkaConsumerService kafkaConsumerService;
 
     @Test
     public void testFriendAddEvent() {
         String json = "{\"data\":[{\"position\":\"student\",\"username\":\"userZwZ\"}],\"errorCode\":\"0\",\"errorMsg\":\"调用接口成功\"}\n";
-        kafkaConsumerDemoService.solve(json);
+        kafkaConsumerService.solve(json);
     }
 
 

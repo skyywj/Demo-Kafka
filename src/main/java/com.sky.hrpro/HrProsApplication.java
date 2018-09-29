@@ -45,7 +45,6 @@ public class HrProsApplication{
         return new TaskRunner();
     }
 
-
     @Bean
     public TaskScheduler taskScheduler(){
         ThreadPoolTaskScheduler taskScheduler = new ThreadPoolTaskScheduler();
