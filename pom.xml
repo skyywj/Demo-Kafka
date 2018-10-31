@@ -25,6 +25,7 @@
         <grpc-jersey.version>0.3.2</grpc-jersey.version>
         <grpc.version>1.10.0</grpc.version>
         <netty.version>4.1.22.Final</netty.version>
+        <spring-kafka.version>2.1.4.RELEASE</spring-kafka.version>
     </properties>
 
     <dependencies>
@@ -102,6 +103,18 @@
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>0.10.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <version>${spring-kafka.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka-test</artifactId>
+            <version>${spring-kafka.version}</version>
+            <scope>test</scope>
         </dependency>
 
         <!--SASL 鉴权使用的库-->
