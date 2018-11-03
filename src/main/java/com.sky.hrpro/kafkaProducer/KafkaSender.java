@@ -1,4 +1,4 @@
-package com.sky.hrpro.kafka;
+package com.sky.hrpro.kafkaProducer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

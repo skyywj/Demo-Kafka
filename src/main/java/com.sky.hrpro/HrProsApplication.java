@@ -1,7 +1,7 @@
 package com.sky.hrpro;
 
 
-import com.sky.hrpro.kafkaService.TaskRunner;
+import com.sky.hrpro.kafkaConsumer.TaskRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

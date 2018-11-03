@@ -1,6 +1,6 @@
 package com.sky.hrpro.kafka;
 
-import com.sky.hrpro.kafkaService.KafkaConsumerService;
+import com.sky.hrpro.kafkaConsumer.KafkaConsumerService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

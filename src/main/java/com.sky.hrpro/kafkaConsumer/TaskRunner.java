@@ -1,4 +1,4 @@
-package com.sky.hrpro.kafkaService;
+package com.sky.hrpro.kafkaConsumer;
 
 import com.sky.hrpro.util.LoggerUtils;
 import org.springframework.boot.ApplicationArguments;
